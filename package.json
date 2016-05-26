@@ -1,0 +1,26 @@
+{
+  "name": "fis3-preprocessor-ng2-inline",
+  "version": "0.0.1",
+  "description": "fis3 preprocessor, used for inlining the templateUrl and the styleUrls in ng2 component.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lococo--0/fis3-preprocessor-ng2-inline.git"
+  },
+  "keywords": [
+    "fis3",
+    "ng2",
+    "angular2",
+    "angular",
+    "preprocessor"
+  ],
+  "author": "lococo <lococo.exe@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lococo--0/fis3-preprocessor-ng2-inline/issues"
+  },
+  "homepage": "https://github.com/lococo--0/fis3-preprocessor-ng2-inline#readme"
+}
