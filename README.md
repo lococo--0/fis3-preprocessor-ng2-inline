@@ -2,7 +2,16 @@
 
 此插件会把@Component中的html和style内联进js中。
 
+## 用法
+```js
+fis.match('**.ts', {
+  parser: fis.plugin('typescript'),
+  preprocessor: fis.plugin('ng2-inline'),
+  rExt: '.js'
+})
+```
 ## 效果
+cmp.component.ts
 预处理前
 ```js
 Component({
@@ -15,13 +24,5 @@ Component({
 Component({
   template: __inline('xxx'),
   styles: [__inline('xxx')]
-})
-```
-## 用法
-```js
-fis.match('**.ts', {
-  parser: fis.plugin('typescript'),
-  preprocessor: fis.plugin('ng2-inline'),
-  rExt: '.js'
 })
 ```
